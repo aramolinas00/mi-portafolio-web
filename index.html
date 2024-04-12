@@ -2,16 +2,19 @@
 <html>
   <head>
     <title>Mi portafolio personal</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <a href="#acerca-de-mi">Acerca de mí</a>
-          <a href="#habilidades">Habilidades</a>
-          <a href="#experiencia">Experiencia</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#contacto">Contacto</a>
+          <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
+          <a class="menu-item" href="#habilidades">Habilidades</a>
+          <a class="menu-item" href="#experiencia">Experiencia</a>
+          <a class="menu-item" href="#proyectos">Proyectos</a>
+          <a class="menu-item" href="#contacto">Contacto</a>
         </ul>
       </nav>
       <h1>NOEMI ARACELI MOLINAS VERA</h1>
@@ -69,15 +72,11 @@
         <h2>Proyectos</h2>
         <ul>
           <li>
-            <a href="https://www.nytimes.com/games/wordle/index.html"
-              >Clon de Wordle</a
-            >
+            <a href="https://www.nytimes.com/games/wordle/index.html">Proyecto 1</a>
             <p>Descripción del proyecto 1</p>
           </li>
           <li>
-            <a href="https://www.nytimes.com/games/wordle/index.html"
-              >Proyecto 2</a
-            >
+            <a href="https://www.nytimes.com/games/wordle/index.html">Proyecto 2</a>
             <p>Descripción del proyecto 2</p>
           </li>
         </ul>
@@ -87,18 +86,20 @@
         <ul>
           <li>Email: noemimolinasvera@gmail.com</li>
           <li>Teléfono: 0971 246 299</li>
-          <li>
-            Redes Sociales:
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/noemiaraceli.molinasvera/">Facebook</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/aramolinas00">Twitter</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/noemi-araceli-molinas-vera-66a220252/">LinkedIn</a>
-              </li>
+          <ul id="sociales">
+            <li>
+              Redes Sociales:
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/noemiaraceli.molinasvera/" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/aramolinas00" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/noemi-araceli-molinas-vera-66a220252/" class="fa fa-linkedin"></a>
+                </li>
+          </ul>
               <!-- Agrega más redes sociales si lo deseas -->
             </ul>
           </li>
@@ -106,6 +107,10 @@
       </section>
     </main>
     <footer>
+      <p>NOEMI ARACELI MOLINAS VERA &copy; 2024</p>
+    </footer>
+  </body>
+</html>
       <p>NOEMI ARACELI MOLINAS VERA &copy; 2024</p>
     </footer>
   </body>
